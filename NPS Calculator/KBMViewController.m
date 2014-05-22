@@ -79,7 +79,7 @@
     
     if ( nps >= 75 )
     {
-        self.netPromoterScoreLabel.backgroundColor = [UIColor greenColor];
+        self.netPromoterScoreLabel.backgroundColor = [UIColor colorWithRed:0.152 green:0.686 blue:0.383 alpha:0.500];
     } else {
         self.netPromoterScoreLabel.backgroundColor = [UIColor whiteColor];
     }

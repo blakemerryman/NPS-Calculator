@@ -463,6 +463,7 @@
 				46F90212192DAAE300080D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46F90213192DAAE300080D10 /* Build configuration list for PBXNativeTarget "NPS CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +472,7 @@
 				46F90215192DAAE300080D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
