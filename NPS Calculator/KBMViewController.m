@@ -10,6 +10,11 @@
 
 @interface KBMViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *netPromoterScoreLabel;
+@property (weak, nonatomic) IBOutlet UILabel *numberOfDetractorsLabel;
+@property (weak, nonatomic) IBOutlet UILabel *numberOfPromotersLabel;
+@property (weak, nonatomic) IBOutlet UILabel *numberOfTotalScoresLabel;
+
 @end
 
 @implementation KBMViewController
@@ -24,6 +29,27 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - User Interface Buttons
+- (IBAction)addsPromoter:(id)sender
+{
+    
+}
+
+- (IBAction)addsPassive:(id)sender
+{
+    
+}
+
+- (IBAction)addsDetractor:(id)sender
+{
+    
+}
+
+- (IBAction)reset:(id)sender
+{
+    
 }
 
 @end
