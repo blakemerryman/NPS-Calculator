@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46F901E2192DAAE200080D10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F901E1192DAAE200080D10 /* Foundation.framework */; };
+		46F901E4192DAAE200080D10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F901E3192DAAE200080D10 /* CoreGraphics.framework */; };
+		46F901E6192DAAE200080D10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F901E5192DAAE200080D10 /* UIKit.framework */; };
+		46F901EC192DAAE200080D10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46F901EA192DAAE200080D10 /* InfoPlist.strings */; };
+		46F901EE192DAAE200080D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F901ED192DAAE200080D10 /* main.m */; };
+		46F901F2192DAAE200080D10 /* KBMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F901F1192DAAE200080D10 /* KBMAppDelegate.m */; };
+		46F901F5192DAAE200080D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F901F3192DAAE200080D10 /* Main.storyboard */; };
+		46F901F8192DAAE200080D10 /* KBMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F901F7192DAAE200080D10 /* KBMViewController.m */; };
+		46F901FA192DAAE300080D10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F901F9192DAAE300080D10 /* Images.xcassets */; };
+		46F90201192DAAE300080D10 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F90200192DAAE300080D10 /* XCTest.framework */; };
+		46F90202192DAAE300080D10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F901E1192DAAE200080D10 /* Foundation.framework */; };
+		46F90203192DAAE300080D10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F901E5192DAAE200080D10 /* UIKit.framework */; };
+		46F9020B192DAAE300080D10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46F90209192DAAE300080D10 /* InfoPlist.strings */; };
+		46F9020D192DAAE300080D10 /* NPS_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F9020C192DAAE300080D10 /* NPS_CalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F90204192DAAE300080D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F901D6192DAAE200080D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F901DD192DAAE200080D10;
+			remoteInfo = "NPS Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46F901DE192DAAE200080D10 /* NPS Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NPS Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F901E1192DAAE200080D10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		46F901E3192DAAE200080D10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		46F901E5192DAAE200080D10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		46F901E9192DAAE200080D10 /* NPS Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NPS Calculator-Info.plist"; sourceTree = "<group>"; };
+		46F901EB192DAAE200080D10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46F901ED192DAAE200080D10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46F901EF192DAAE200080D10 /* NPS Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NPS Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		46F901F0192DAAE200080D10 /* KBMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBMAppDelegate.h; sourceTree = "<group>"; };
+		46F901F1192DAAE200080D10 /* KBMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBMAppDelegate.m; sourceTree = "<group>"; };
+		46F901F4192DAAE200080D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46F901F6192DAAE200080D10 /* KBMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBMViewController.h; sourceTree = "<group>"; };
+		46F901F7192DAAE200080D10 /* KBMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBMViewController.m; sourceTree = "<group>"; };
+		46F901F9192DAAE300080D10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46F901FF192DAAE300080D10 /* NPS CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NPS CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F90200192DAAE300080D10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		46F90208192DAAE300080D10 /* NPS CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NPS CalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		46F9020A192DAAE300080D10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46F9020C192DAAE300080D10 /* NPS_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPS_CalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46F901DB192DAAE200080D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F901E4192DAAE200080D10 /* CoreGraphics.framework in Frameworks */,
+				46F901E6192DAAE200080D10 /* UIKit.framework in Frameworks */,
+				46F901E2192DAAE200080D10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F901FC192DAAE300080D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F90201192DAAE300080D10 /* XCTest.framework in Frameworks */,
+				46F90203192DAAE300080D10 /* UIKit.framework in Frameworks */,
+				46F90202192DAAE300080D10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F901D5192DAAE200080D10 = {
+			isa = PBXGroup;
+			children = (
+				46F901E7192DAAE200080D10 /* NPS Calculator */,
+				46F90206192DAAE300080D10 /* NPS CalculatorTests */,
+				46F901E0192DAAE200080D10 /* Frameworks */,
+				46F901DF192DAAE200080D10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46F901DF192DAAE200080D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46F901DE192DAAE200080D10 /* NPS Calculator.app */,
+				46F901FF192DAAE300080D10 /* NPS CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F901E0192DAAE200080D10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46F901E1192DAAE200080D10 /* Foundation.framework */,
+				46F901E3192DAAE200080D10 /* CoreGraphics.framework */,
+				46F901E5192DAAE200080D10 /* UIKit.framework */,
+				46F90200192DAAE300080D10 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46F901E7192DAAE200080D10 /* NPS Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				46F901F0192DAAE200080D10 /* KBMAppDelegate.h */,
+				46F901F1192DAAE200080D10 /* KBMAppDelegate.m */,
+				46F901F3192DAAE200080D10 /* Main.storyboard */,
+				46F901F6192DAAE200080D10 /* KBMViewController.h */,
+				46F901F7192DAAE200080D10 /* KBMViewController.m */,
+				46F901F9192DAAE300080D10 /* Images.xcassets */,
+				46F901E8192DAAE200080D10 /* Supporting Files */,
+			);
+			path = "NPS Calculator";
+			sourceTree = "<group>";
+		};
+		46F901E8192DAAE200080D10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46F901E9192DAAE200080D10 /* NPS Calculator-Info.plist */,
+				46F901EA192DAAE200080D10 /* InfoPlist.strings */,
+				46F901ED192DAAE200080D10 /* main.m */,
+				46F901EF192DAAE200080D10 /* NPS Calculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46F90206192DAAE300080D10 /* NPS CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				46F9020C192DAAE300080D10 /* NPS_CalculatorTests.m */,
+				46F90207192DAAE300080D10 /* Supporting Files */,
+			);
+			path = "NPS CalculatorTests";
+			sourceTree = "<group>";
+		};
+		46F90207192DAAE300080D10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46F90208192DAAE300080D10 /* NPS CalculatorTests-Info.plist */,
+				46F90209192DAAE300080D10 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46F901DD192DAAE200080D10 /* NPS Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F90210192DAAE300080D10 /* Build configuration list for PBXNativeTarget "NPS Calculator" */;
+			buildPhases = (
+				46F901DA192DAAE200080D10 /* Sources */,
+				46F901DB192DAAE200080D10 /* Frameworks */,
+				46F901DC192DAAE200080D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NPS Calculator";
+			productName = "NPS Calculator";
+			productReference = 46F901DE192DAAE200080D10 /* NPS Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46F901FE192DAAE300080D10 /* NPS CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F90213192DAAE300080D10 /* Build configuration list for PBXNativeTarget "NPS CalculatorTests" */;
+			buildPhases = (
+				46F901FB192DAAE300080D10 /* Sources */,
+				46F901FC192DAAE300080D10 /* Frameworks */,
+				46F901FD192DAAE300080D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F90205192DAAE300080D10 /* PBXTargetDependency */,
+			);
+			name = "NPS CalculatorTests";
+			productName = "NPS CalculatorTests";
+			productReference = 46F901FF192DAAE300080D10 /* NPS CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F901D6192DAAE200080D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KBM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Blake Merryman";
+				TargetAttributes = {
+					46F901FE192DAAE300080D10 = {
+						TestTargetID = 46F901DD192DAAE200080D10;
+					};
+				};
+			};
+			buildConfigurationList = 46F901D9192DAAE200080D10 /* Build configuration list for PBXProject "NPS Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46F901D5192DAAE200080D10;
+			productRefGroup = 46F901DF192DAAE200080D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46F901DD192DAAE200080D10 /* NPS Calculator */,
+				46F901FE192DAAE300080D10 /* NPS CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F901DC192DAAE200080D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F901FA192DAAE300080D10 /* Images.xcassets in Resources */,
+				46F901EC192DAAE200080D10 /* InfoPlist.strings in Resources */,
+				46F901F5192DAAE200080D10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F901FD192DAAE300080D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F9020B192DAAE300080D10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F901DA192DAAE200080D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F901EE192DAAE200080D10 /* main.m in Sources */,
+				46F901F8192DAAE200080D10 /* KBMViewController.m in Sources */,
+				46F901F2192DAAE200080D10 /* KBMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F901FB192DAAE300080D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F9020D192DAAE300080D10 /* NPS_CalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46F90205192DAAE300080D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F901DD192DAAE200080D10 /* NPS Calculator */;
+			targetProxy = 46F90204192DAAE300080D10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46F901EA192DAAE200080D10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F901EB192DAAE200080D10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		46F901F3192DAAE200080D10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F901F4192DAAE200080D10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46F90209192DAAE300080D10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F9020A192DAAE300080D10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46F9020E192DAAE300080D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46F9020F192DAAE300080D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F90211192DAAE300080D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NPS Calculator/NPS Calculator-Prefix.pch";
+				INFOPLIST_FILE = "NPS Calculator/NPS Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		46F90212192DAAE300080D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NPS Calculator/NPS Calculator-Prefix.pch";
+				INFOPLIST_FILE = "NPS Calculator/NPS Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		46F90214192DAAE300080D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NPS Calculator.app/NPS Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NPS Calculator/NPS Calculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NPS CalculatorTests/NPS CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		46F90215192DAAE300080D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NPS Calculator.app/NPS Calculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NPS Calculator/NPS Calculator-Prefix.pch";
+				INFOPLIST_FILE = "NPS CalculatorTests/NPS CalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46F901D9192DAAE200080D10 /* Build configuration list for PBXProject "NPS Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F9020E192DAAE300080D10 /* Debug */,
+				46F9020F192DAAE300080D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F90210192DAAE300080D10 /* Build configuration list for PBXNativeTarget "NPS Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F90211192DAAE300080D10 /* Debug */,
+				46F90212192DAAE300080D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F90213192DAAE300080D10 /* Build configuration list for PBXNativeTarget "NPS CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F90214192DAAE300080D10 /* Debug */,
+				46F90215192DAAE300080D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F901D6192DAAE200080D10 /* Project object */;
+}
