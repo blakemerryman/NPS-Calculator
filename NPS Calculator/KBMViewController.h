@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NPScore.h"
 
 @interface KBMViewController : UIViewController
+
+@property NPScore *myNPS;
 
 @end

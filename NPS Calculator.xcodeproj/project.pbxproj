@@ -21,6 +21,7 @@
 		46F90203192DAAE300080D10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F901E5192DAAE200080D10 /* UIKit.framework */; };
 		46F9020B192DAAE300080D10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46F90209192DAAE300080D10 /* InfoPlist.strings */; };
 		46F9020D192DAAE300080D10 /* NPS_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F9020C192DAAE300080D10 /* NPS_CalculatorTests.m */; };
+		46F90218192DB1E300080D10 /* NPScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F90217192DB1E300080D10 /* NPScore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		46F90208192DAAE300080D10 /* NPS CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NPS CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		46F9020A192DAAE300080D10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46F9020C192DAAE300080D10 /* NPS_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPS_CalculatorTests.m; sourceTree = "<group>"; };
+		46F90216192DB1E300080D10 /* NPScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPScore.h; sourceTree = "<group>"; };
+		46F90217192DB1E300080D10 /* NPScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPScore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +115,11 @@
 		46F901E7192DAAE200080D10 /* NPS Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				46F901F0192DAAE200080D10 /* KBMAppDelegate.h */,
-				46F901F1192DAAE200080D10 /* KBMAppDelegate.m */,
 				46F901F3192DAAE200080D10 /* Main.storyboard */,
 				46F901F6192DAAE200080D10 /* KBMViewController.h */,
 				46F901F7192DAAE200080D10 /* KBMViewController.m */,
-				46F901F9192DAAE300080D10 /* Images.xcassets */,
+				46F90216192DB1E300080D10 /* NPScore.h */,
+				46F90217192DB1E300080D10 /* NPScore.m */,
 				46F901E8192DAAE200080D10 /* Supporting Files */,
 			);
 			path = "NPS Calculator";
@@ -126,6 +128,9 @@
 		46F901E8192DAAE200080D10 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				46F901F9192DAAE300080D10 /* Images.xcassets */,
+				46F901F0192DAAE200080D10 /* KBMAppDelegate.h */,
+				46F901F1192DAAE200080D10 /* KBMAppDelegate.m */,
 				46F901E9192DAAE200080D10 /* NPS Calculator-Info.plist */,
 				46F901EA192DAAE200080D10 /* InfoPlist.strings */,
 				46F901ED192DAAE200080D10 /* main.m */,
@@ -252,6 +257,7 @@
 			files = (
 				46F901EE192DAAE200080D10 /* main.m in Sources */,
 				46F901F8192DAAE200080D10 /* KBMViewController.m in Sources */,
+				46F90218192DB1E300080D10 /* NPScore.m in Sources */,
 				46F901F2192DAAE200080D10 /* KBMAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

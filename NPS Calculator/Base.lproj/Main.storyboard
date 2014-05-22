@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FWD-NE-Jhf">
-                                <rect key="frame" x="20" y="69" width="280" height="121"/>
+                                <rect key="frame" x="20" y="84" width="280" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="35"/>
                                 <nil key="highlightedColor"/>
@@ -96,8 +96,8 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="total" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrr-b3-iAa">
-                                <rect key="frame" x="145" y="198" width="30" height="18"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="total" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrr-b3-iAa">
+                                <rect key="frame" x="146" y="198" width="30" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
                                 <nil key="highlightedColor"/>
@@ -129,12 +129,12 @@
                             <constraint firstItem="FID-Sz-IcH" firstAttribute="trailing" secondItem="Zdo-KD-HgX" secondAttribute="trailing" id="8ta-5q-xv8"/>
                             <constraint firstItem="Bnp-LZ-7nn" firstAttribute="top" secondItem="np4-27-mdY" secondAttribute="bottom" constant="8" symbolic="YES" id="CcO-ju-nmI"/>
                             <constraint firstItem="EBa-0F-Z2B" firstAttribute="centerX" secondItem="zrr-b3-iAa" secondAttribute="centerX" id="EG9-sF-BH7"/>
-                            <constraint firstItem="FWD-NE-Jhf" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="5" id="F3e-zv-cqT"/>
+                            <constraint firstItem="FWD-NE-Jhf" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="F3e-zv-cqT"/>
                             <constraint firstItem="FID-Sz-IcH" firstAttribute="leading" secondItem="FWD-NE-Jhf" secondAttribute="leading" id="Hge-Zh-YMi"/>
                             <constraint firstItem="d00-C4-uhO" firstAttribute="trailing" secondItem="SLy-xm-6Mr" secondAttribute="trailing" id="Lhz-gL-O0B"/>
                             <constraint firstItem="Zdo-KD-HgX" firstAttribute="leading" secondItem="FID-Sz-IcH" secondAttribute="leading" id="Nbf-yU-lXR"/>
                             <constraint firstItem="Zdo-KD-HgX" firstAttribute="top" secondItem="FID-Sz-IcH" secondAttribute="bottom" constant="8" symbolic="YES" id="OUr-Kl-48P"/>
-                            <constraint firstItem="FID-Sz-IcH" firstAttribute="top" secondItem="FWD-NE-Jhf" secondAttribute="bottom" constant="8" symbolic="YES" id="R2j-6r-t8z"/>
+                            <constraint firstItem="FID-Sz-IcH" firstAttribute="top" secondItem="FWD-NE-Jhf" secondAttribute="bottom" constant="-7" id="R2j-6r-t8z"/>
                             <constraint firstItem="SLy-xm-6Mr" firstAttribute="trailing" secondItem="FWD-NE-Jhf" secondAttribute="trailing" id="Vub-cR-yS9"/>
                             <constraint firstItem="FWD-NE-Jhf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="XMh-df-nLj"/>
                             <constraint firstItem="EBa-0F-Z2B" firstAttribute="leading" secondItem="Zdo-KD-HgX" secondAttribute="trailing" constant="37" id="ZA2-8m-w5v"/>
@@ -147,7 +147,7 @@
                             <constraint firstItem="SDh-rE-da5" firstAttribute="centerX" secondItem="Zc3-SZ-GIq" secondAttribute="centerX" id="lsx-yx-dRt"/>
                             <constraint firstItem="Zc3-SZ-GIq" firstAttribute="top" secondItem="Bnp-LZ-7nn" secondAttribute="bottom" constant="8" symbolic="YES" id="nxg-8H-8dV"/>
                             <constraint firstItem="EBa-0F-Z2B" firstAttribute="baseline" secondItem="Zdo-KD-HgX" secondAttribute="baseline" id="qLn-I6-UY4"/>
-                            <constraint firstItem="zrr-b3-iAa" firstAttribute="top" secondItem="FWD-NE-Jhf" secondAttribute="bottom" constant="8" symbolic="YES" id="qX2-UT-EWk"/>
+                            <constraint firstItem="zrr-b3-iAa" firstAttribute="top" secondItem="FWD-NE-Jhf" secondAttribute="bottom" constant="-7" id="qX2-UT-EWk"/>
                             <constraint firstItem="EBa-0F-Z2B" firstAttribute="top" secondItem="zrr-b3-iAa" secondAttribute="bottom" constant="8" symbolic="YES" id="sOb-tY-wbB"/>
                             <constraint firstItem="np4-27-mdY" firstAttribute="trailing" secondItem="d00-C4-uhO" secondAttribute="trailing" id="twt-3f-uHa"/>
                             <constraint firstItem="d00-C4-uhO" firstAttribute="leading" secondItem="SLy-xm-6Mr" secondAttribute="leading" id="vIE-Lg-PLT"/>
@@ -166,7 +166,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="891" y="101"/>
+            <point key="canvasLocation" x="996" y="101"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mIl-dE-eXW">
