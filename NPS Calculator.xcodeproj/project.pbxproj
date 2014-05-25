@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46DD836519327BE700B95EA3 /* tap-warm.aif in Resources */ = {isa = PBXBuildFile; fileRef = 46DD836419327BE700B95EA3 /* tap-warm.aif */; };
+		46DD836819327E7100B95EA3 /* slide-network.aif in Resources */ = {isa = PBXBuildFile; fileRef = 46DD836719327E7100B95EA3 /* slide-network.aif */; };
+		46DD836A19327E9800B95EA3 /* beep-rejected.aif in Resources */ = {isa = PBXBuildFile; fileRef = 46DD836919327E9800B95EA3 /* beep-rejected.aif */; };
+		46DD836C19327EDD00B95EA3 /* tap-hollow.aif in Resources */ = {isa = PBXBuildFile; fileRef = 46DD836B19327EDD00B95EA3 /* tap-hollow.aif */; };
+		46DD836E193289A500B95EA3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46DD836D193289A500B95EA3 /* AudioToolbox.framework */; };
+		46DD837119328FC700B95EA3 /* KBMSoundController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DD837019328FC700B95EA3 /* KBMSoundController.m */; };
 		46F901E2192DAAE200080D10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F901E1192DAAE200080D10 /* Foundation.framework */; };
 		46F901E4192DAAE200080D10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F901E3192DAAE200080D10 /* CoreGraphics.framework */; };
 		46F901E6192DAAE200080D10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F901E5192DAAE200080D10 /* UIKit.framework */; };
@@ -35,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46DD836419327BE700B95EA3 /* tap-warm.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tap-warm.aif"; sourceTree = "<group>"; };
+		46DD836719327E7100B95EA3 /* slide-network.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "slide-network.aif"; sourceTree = "<group>"; };
+		46DD836919327E9800B95EA3 /* beep-rejected.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "beep-rejected.aif"; sourceTree = "<group>"; };
+		46DD836B19327EDD00B95EA3 /* tap-hollow.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tap-hollow.aif"; sourceTree = "<group>"; };
+		46DD836D193289A500B95EA3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		46DD836F19328FC700B95EA3 /* KBMSoundController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMSoundController.h; sourceTree = "<group>"; };
+		46DD837019328FC700B95EA3 /* KBMSoundController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMSoundController.m; sourceTree = "<group>"; };
 		46F901DE192DAAE200080D10 /* NPS Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NPS Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F901E1192DAAE200080D10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		46F901E3192DAAE200080D10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46DD836E193289A500B95EA3 /* AudioToolbox.framework in Frameworks */,
 				46F901E4192DAAE200080D10 /* CoreGraphics.framework in Frameworks */,
 				46F901E6192DAAE200080D10 /* UIKit.framework in Frameworks */,
 				46F901E2192DAAE200080D10 /* Foundation.framework in Frameworks */,
@@ -82,6 +96,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46DD836619327E2800B95EA3 /* Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				46DD836B19327EDD00B95EA3 /* tap-hollow.aif */,
+				46DD836919327E9800B95EA3 /* beep-rejected.aif */,
+				46DD836719327E7100B95EA3 /* slide-network.aif */,
+				46DD836419327BE700B95EA3 /* tap-warm.aif */,
+			);
+			name = "Sound Effects";
+			sourceTree = "<group>";
+		};
 		46F901D5192DAAE200080D10 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +129,7 @@
 		46F901E0192DAAE200080D10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				46DD836D193289A500B95EA3 /* AudioToolbox.framework */,
 				46F901E1192DAAE200080D10 /* Foundation.framework */,
 				46F901E3192DAAE200080D10 /* CoreGraphics.framework */,
 				46F901E5192DAAE200080D10 /* UIKit.framework */,
@@ -115,11 +141,16 @@
 		46F901E7192DAAE200080D10 /* NPS Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				46F901F0192DAAE200080D10 /* NPSCalculatorAppDelegate.h */,
+				46F901F1192DAAE200080D10 /* NPSCalculatorAppDelegate.m */,
 				46F901F3192DAAE200080D10 /* Main.storyboard */,
 				46F901F6192DAAE200080D10 /* NPSCalculatorViewController.h */,
 				46F901F7192DAAE200080D10 /* NPSCalculatorViewController.m */,
+				46DD836F19328FC700B95EA3 /* KBMSoundController.h */,
+				46DD837019328FC700B95EA3 /* KBMSoundController.m */,
 				46F90216192DB1E300080D10 /* NPScore.h */,
 				46F90217192DB1E300080D10 /* NPScore.m */,
+				46DD836619327E2800B95EA3 /* Sound Effects */,
 				46F901E8192DAAE200080D10 /* Supporting Files */,
 			);
 			path = "NPS Calculator";
@@ -129,8 +160,6 @@
 			isa = PBXGroup;
 			children = (
 				46F901F9192DAAE300080D10 /* Images.xcassets */,
-				46F901F0192DAAE200080D10 /* NPSCalculatorAppDelegate.h */,
-				46F901F1192DAAE200080D10 /* NPSCalculatorAppDelegate.m */,
 				46F901E9192DAAE200080D10 /* NPS Calculator-Info.plist */,
 				46F901EA192DAAE200080D10 /* InfoPlist.strings */,
 				46F901ED192DAAE200080D10 /* main.m */,
@@ -234,9 +263,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46DD836819327E7100B95EA3 /* slide-network.aif in Resources */,
 				46F901FA192DAAE300080D10 /* Images.xcassets in Resources */,
+				46DD836A19327E9800B95EA3 /* beep-rejected.aif in Resources */,
 				46F901EC192DAAE200080D10 /* InfoPlist.strings in Resources */,
+				46DD836C19327EDD00B95EA3 /* tap-hollow.aif in Resources */,
 				46F901F5192DAAE200080D10 /* Main.storyboard in Resources */,
+				46DD836519327BE700B95EA3 /* tap-warm.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +292,7 @@
 				46F901F8192DAAE200080D10 /* NPSCalculatorViewController.m in Sources */,
 				46F90218192DB1E300080D10 /* NPScore.m in Sources */,
 				46F901F2192DAAE200080D10 /* NPSCalculatorAppDelegate.m in Sources */,
+				46DD837119328FC700B95EA3 /* KBMSoundController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,8 @@
 #pragma mark - Private Interface Properties & Method(s)
 @interface NPSCalculatorViewController ()
 
+#pragma mark - Interface: NPS Calculator Labels
+
 @property (weak, nonatomic) IBOutlet UILabel *netPromoterScoreLabel;
 @property (weak, nonatomic) IBOutlet UILabel *numberOfDetractorsLabel;
 @property (weak, nonatomic) IBOutlet UILabel *numberOfPromotersLabel;
@@ -26,9 +28,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    // Setup for NPS score object & label initialization.
     self.myNPS = [[NPScore alloc] init];
     [self updateAllLabels];
+    
+    // Setup for sound effects.
+    self.mySoundController = [[KBMSoundController alloc] init];
+    [self.mySoundController setUpSoundController];
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,29 +44,34 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - User Interface Buttons
+#pragma mark - UI Button Actions
+
 - (IBAction)addsPromoter:(id)sender
 {
     [[self myNPS] addPromoter];
     [self updateAllLabels];
+    [self.mySoundController playSoundWithID:@"promoter"];
 }
 
 - (IBAction)addsPassive:(id)sender
 {
     [[self myNPS] addPassive];
     [self updateAllLabels];
+    [self.mySoundController playSoundWithID:@"passive"];
 }
 
 - (IBAction)addsDetractor:(id)sender
 {
     [[self myNPS] addDetractor];
     [self updateAllLabels];
+    [self.mySoundController playSoundWithID:@"detractor"];
 }
 
 - (IBAction)reset:(id)sender
 {
     [[self myNPS] resetNPS];
     [self updateAllLabels];
+    [self.mySoundController playSoundWithID:@"reset"];
 }
 
 #pragma mark - Private Method Implementation(s)
@@ -79,6 +91,7 @@
     double nps = self.myNPS.netPromoterScore * 100;
     self.netPromoterScoreLabel.text = [NSString stringWithFormat:@"%.00f%%", nps];
     
+    // Checks to see if NPS is on target and sets background color accordingly
     if ( nps >= 75 )
     {
         self.netPromoterScoreLabel.backgroundColor = [UIColor colorWithRed:0.152 green:0.686 blue:0.383 alpha:0.500];
