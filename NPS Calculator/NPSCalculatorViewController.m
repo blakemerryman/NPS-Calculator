@@ -8,6 +8,7 @@
 
 #import "NPSCalculatorViewController.h"
 
+#pragma mark - Private Interface Properties & Method(s)
 @interface NPSCalculatorViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *netPromoterScoreLabel;
@@ -19,6 +20,7 @@
 
 @end
 
+#pragma mark -
 @implementation NPSCalculatorViewController
 
 - (void)viewDidLoad
@@ -60,7 +62,7 @@
     [self updateAllLabels];
 }
 
-#pragma mark - Private Method Implementations
+#pragma mark - Private Method Implementation(s)
 
 -(void)updateAllLabels
 {
