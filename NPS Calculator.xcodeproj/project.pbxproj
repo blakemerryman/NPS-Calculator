@@ -12,9 +12,9 @@
 		46F901E6192DAAE200080D10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F901E5192DAAE200080D10 /* UIKit.framework */; };
 		46F901EC192DAAE200080D10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46F901EA192DAAE200080D10 /* InfoPlist.strings */; };
 		46F901EE192DAAE200080D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F901ED192DAAE200080D10 /* main.m */; };
-		46F901F2192DAAE200080D10 /* KBMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F901F1192DAAE200080D10 /* KBMAppDelegate.m */; };
+		46F901F2192DAAE200080D10 /* NPSCalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F901F1192DAAE200080D10 /* NPSCalculatorAppDelegate.m */; };
 		46F901F5192DAAE200080D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F901F3192DAAE200080D10 /* Main.storyboard */; };
-		46F901F8192DAAE200080D10 /* KBMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F901F7192DAAE200080D10 /* KBMViewController.m */; };
+		46F901F8192DAAE200080D10 /* NPSCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F901F7192DAAE200080D10 /* NPSCalculatorViewController.m */; };
 		46F901FA192DAAE300080D10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F901F9192DAAE300080D10 /* Images.xcassets */; };
 		46F90201192DAAE300080D10 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F90200192DAAE300080D10 /* XCTest.framework */; };
 		46F90202192DAAE300080D10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F901E1192DAAE200080D10 /* Foundation.framework */; };
@@ -41,13 +41,13 @@
 		46F901E5192DAAE200080D10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		46F901E9192DAAE200080D10 /* NPS Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NPS Calculator-Info.plist"; sourceTree = "<group>"; };
 		46F901EB192DAAE200080D10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		46F901ED192DAAE200080D10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46F901ED192DAAE200080D10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		46F901EF192DAAE200080D10 /* NPS Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NPS Calculator-Prefix.pch"; sourceTree = "<group>"; };
-		46F901F0192DAAE200080D10 /* KBMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBMAppDelegate.h; sourceTree = "<group>"; };
-		46F901F1192DAAE200080D10 /* KBMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBMAppDelegate.m; sourceTree = "<group>"; };
+		46F901F0192DAAE200080D10 /* NPSCalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = NPSCalculatorAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		46F901F1192DAAE200080D10 /* NPSCalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NPSCalculatorAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		46F901F4192DAAE200080D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		46F901F6192DAAE200080D10 /* KBMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBMViewController.h; sourceTree = "<group>"; };
-		46F901F7192DAAE200080D10 /* KBMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBMViewController.m; sourceTree = "<group>"; };
+		46F901F6192DAAE200080D10 /* NPSCalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPSCalculatorViewController.h; sourceTree = "<group>"; };
+		46F901F7192DAAE200080D10 /* NPSCalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPSCalculatorViewController.m; sourceTree = "<group>"; };
 		46F901F9192DAAE300080D10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		46F901FF192DAAE300080D10 /* NPS CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NPS CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F90200192DAAE300080D10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -116,8 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				46F901F3192DAAE200080D10 /* Main.storyboard */,
-				46F901F6192DAAE200080D10 /* KBMViewController.h */,
-				46F901F7192DAAE200080D10 /* KBMViewController.m */,
+				46F901F6192DAAE200080D10 /* NPSCalculatorViewController.h */,
+				46F901F7192DAAE200080D10 /* NPSCalculatorViewController.m */,
 				46F90216192DB1E300080D10 /* NPScore.h */,
 				46F90217192DB1E300080D10 /* NPScore.m */,
 				46F901E8192DAAE200080D10 /* Supporting Files */,
@@ -129,8 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				46F901F9192DAAE300080D10 /* Images.xcassets */,
-				46F901F0192DAAE200080D10 /* KBMAppDelegate.h */,
-				46F901F1192DAAE200080D10 /* KBMAppDelegate.m */,
+				46F901F0192DAAE200080D10 /* NPSCalculatorAppDelegate.h */,
+				46F901F1192DAAE200080D10 /* NPSCalculatorAppDelegate.m */,
 				46F901E9192DAAE200080D10 /* NPS Calculator-Info.plist */,
 				46F901EA192DAAE200080D10 /* InfoPlist.strings */,
 				46F901ED192DAAE200080D10 /* main.m */,
@@ -256,9 +256,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				46F901EE192DAAE200080D10 /* main.m in Sources */,
-				46F901F8192DAAE200080D10 /* KBMViewController.m in Sources */,
+				46F901F8192DAAE200080D10 /* NPSCalculatorViewController.m in Sources */,
 				46F90218192DB1E300080D10 /* NPScore.m in Sources */,
-				46F901F2192DAAE200080D10 /* KBMAppDelegate.m in Sources */,
+				46F901F2192DAAE200080D10 /* NPSCalculatorAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

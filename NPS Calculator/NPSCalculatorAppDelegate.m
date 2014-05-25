@@ -1,14 +1,14 @@
 //
-//  KBMAppDelegate.m
+//  NPSCalculatorAppDelegate.m
 //  NPS Calculator
 //
 //  Created by Blake Merryman on 5/21/14.
 //  Copyright (c) 2014 Blake Merryman. All rights reserved.
 //
 
-#import "KBMAppDelegate.h"
+#import "NPSCalculatorAppDelegate.h"
 
-@implementation KBMAppDelegate
+@implementation NPSCalculatorAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

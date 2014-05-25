@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="XTX-7Z-Dlz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="XTX-7Z-Dlz">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller - Net Promoter Score Calculator-->
+        <!--Calculator View Controller - NPS Calculator-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="KBMViewController" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="NPSCalculatorViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -156,7 +156,7 @@
                             <constraint firstItem="FID-Sz-IcH" firstAttribute="leading" secondItem="Zdo-KD-HgX" secondAttribute="leading" id="xaw-Sv-F4N"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Net Promoter Score Calculator" id="oxl-Li-NG4"/>
+                    <navigationItem key="navigationItem" title="NPS Calculator" id="oxl-Li-NG4"/>
                     <connections>
                         <outlet property="netPromoterScoreLabel" destination="FWD-NE-Jhf" id="6ev-lL-WHj"/>
                         <outlet property="numberOfDetractorsLabel" destination="d00-C4-uhO" id="IsD-nP-ptC"/>

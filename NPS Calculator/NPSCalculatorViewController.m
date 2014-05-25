@@ -1,14 +1,14 @@
 //
-//  KBMViewController.m
+//  NPSCalculatorViewController.m
 //  NPS Calculator
 //
 //  Created by Blake Merryman on 5/21/14.
 //  Copyright (c) 2014 Blake Merryman. All rights reserved.
 //
 
-#import "KBMViewController.h"
+#import "NPSCalculatorViewController.h"
 
-@interface KBMViewController ()
+@interface NPSCalculatorViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *netPromoterScoreLabel;
 @property (weak, nonatomic) IBOutlet UILabel *numberOfDetractorsLabel;
@@ -19,7 +19,7 @@
 
 @end
 
-@implementation KBMViewController
+@implementation NPSCalculatorViewController
 
 - (void)viewDidLoad
 {

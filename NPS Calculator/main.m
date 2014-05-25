@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "KBMAppDelegate.h"
+#import "NPSCalculatorAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([KBMAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([NPSCalculatorAppDelegate class]));
     }
 }

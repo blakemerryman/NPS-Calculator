@@ -1,5 +1,5 @@
 //
-//  KBMAppDelegate.h
+//  NPSCalculatorViewController.h
 //  NPS Calculator
 //
 //  Created by Blake Merryman on 5/21/14.
@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NPScore.h"
 
-@interface KBMAppDelegate : UIResponder <UIApplicationDelegate>
+@interface NPSCalculatorViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
+@property NPScore *myNPS;
 
 @end
